@@ -2,7 +2,7 @@ import csv
 from py2neo import Graph,Node,Relationship,NodeMatcher,NodeMatcher
 import py2neo
 #graph直接写账号密码会不安全
-g=Graph('http://localhost:7474', user='neo4j', password='qaz15923752448')
+g=Graph('http://localhost:7474', user='neo4j', password='neo4j')
 #创建config以及db.cfg用来存储信息
 
 
